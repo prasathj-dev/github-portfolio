@@ -16,7 +16,6 @@
     "@fontsource/inter": "^5.2.8",
     "@fontsource/poppins": "^5.2.7",
     "@fontsource/stix-two-math": "^4.5.2",
-    "@tailwindcss/vite": "^4.1.18",
     "@threeveloper/azure-react-icons": "^1.1.1",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/preset-snow": "^3.2.0",
@@ -39,6 +38,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.1.18",
     "@types/animejs": "^3.1.13",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
