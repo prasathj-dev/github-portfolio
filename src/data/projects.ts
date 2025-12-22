@@ -80,7 +80,7 @@ export const projects: Project[] = [
     description:
       'A modern, responsive personal portfolio built with React, Tailwind CSS, and Framer Motion for smooth animations.',
     link: `#`,
-    github: '${contactLinks.gitgub}/github-portfolio',
+    github: `${contactLinks.gitgub}/github-portfolio`,
     image: portfolio,
     tech: ['React', 'Tailwind CSS', 'TypeScript', 'Framer Motion', 'Vite'],
   },
