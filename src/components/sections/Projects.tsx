@@ -4,7 +4,6 @@ import { projects } from "@/data/projects";
 import { motion, type Variants } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import MotionSection from "../wrapper/MotionSection";
-import { SiIonic } from "react-icons/si";
 import { FaEye, FaGithub } from "react-icons/fa";
 
 const Projects = () => {

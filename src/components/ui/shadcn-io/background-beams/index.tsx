@@ -1,11 +1,9 @@
 'use client';
-
-import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export const BackgroundBeams = ({ className }: { className?: string }) => {
-  const beams = Array.from({ length: 6 }).map((_, i) => ({
+  const beams = Array.from({ length: 6 }).map((_) => ({
     yStart: Math.random() * 300,
     yEnd: Math.random() * 300,
     delay: Math.random() * 5,
