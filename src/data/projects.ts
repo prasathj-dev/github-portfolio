@@ -3,6 +3,7 @@ import portfolio from '@/assets/images/portfolio.png';
 import ecom from '@/assets/images/e-commerce.png';
 import random from '@/assets/images/random.png';
 import type { Project } from '@/types/project';
+import { contactLinks } from '@/utils/util';
 
 export const projects: Project[] = [
   {
@@ -39,8 +40,7 @@ export const projects: Project[] = [
     description:
       'Full-stack e-commerce application with Node.js backend, React frontend, and integrated payment system.',
     image: ecom,
-    link: 'sasas',
-    github: 'asas',
+    github: `${contactLinks.gitgub}/e-commerce`,
 
     tech: [
       'React 19',
@@ -79,8 +79,8 @@ export const projects: Project[] = [
     name: 'Portfolio Website',
     description:
       'A modern, responsive personal portfolio built with React, Tailwind CSS, and Framer Motion for smooth animations.',
-    link: '#',
-    github: 'asas',
+    link: `#`,
+    github: '${contactLinks.gitgub}/github-portfolio',
     image: portfolio,
     tech: ['React', 'Tailwind CSS', 'TypeScript', 'Framer Motion', 'Vite'],
   },
