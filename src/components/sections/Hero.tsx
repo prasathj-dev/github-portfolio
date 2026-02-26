@@ -37,7 +37,7 @@ const socialLinks: SocialLink[] = [
         hover: 'hover:text-green-400',
     }
 ];
-const description = "Senior Full-Stack Engineer with 5+ years of experience delivering large-scale, customer-facing applications across Europe, Asia, and Australia. Strong expertise in React (v17+), Angular with NgRx, Node.js, and TypeScript, with proven success architecting scalable UIs and secure APIs. Skilled in React Query, Zustand, performance optimization, and expanding into Next.js, Vue, GraphQL, and modern frontend architectures. Experienced in Azure cloud services, CI/CD pipelines, Docker, Kubernetes, and observability practices. Proven leader in mentoring engineers and driving technical projects."
+const description = "Senior Full‑Stack Engineer with 5+ years of experience delivering large‑scale, customer‑facing applications across Europe, Asia, and Australia. Strong expertise in React (v17+), Angular with NgRx, .NET/.NET Core ,Node.js, and TypeScript, with proven success architecting scalable UIs and secure APIs. Skilled in React Query, Zustand, performance optimization, and expanding into Next.js, Vue, GraphQL, and modern frontend architectures. Experienced in Azure cloud services, CI/CD pipelines, Docker, Kubernetes, and observability practices. Proven leader in mentoring engineers and driving technical projects."
 
 
 const Hero = () => {

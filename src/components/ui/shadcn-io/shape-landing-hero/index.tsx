@@ -159,7 +159,7 @@ export function HeroGeometric({
             variants={fadeUpVariants}
             initial="hidden"
             animate="visible"
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] border border-white/[0.08] mb-8 md:mb-12  relative  -top-20 md:-top-14 z-20"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] border relative top-[11px] md:relative md:top-0 border-white/[0.08] mb-17 md:mb-8  relative  -top-20 md:-top-14 z-20"
           >
             <Circle className="h-2 w-2 fill-rose-500/80" />
             <span className="text-sm text-white/60 tracking-wide">

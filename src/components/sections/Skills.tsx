@@ -59,7 +59,7 @@ const Skills = () => {
                                 >
                                     <SkillCard icon={<skill.icon.icon className={`text-3xl ${skill.icon.iconClass}`} />} name={skill.name} level={skill.level} />
                                 </motion.div>
-                            </motion.div>
+                            </motion.div>   
                         ))}
                     </div>
 

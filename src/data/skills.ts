@@ -51,6 +51,12 @@ export const skills: Skill[] = [
     level: 'strong',
   },
   {
+    name: '.NET Core',
+    icon: { icon: SiDotnet, iconClass: 'text-purple-600' },
+    pos: { top: '15%', left: '35%' },
+    level: 'strong',
+  },
+  {
     name: 'Node.js',
     icon: { icon: FaNodeJs, iconClass: 'text-green-500' },
     pos: { top: '25%', left: '60%' },
@@ -80,12 +86,7 @@ export const skills: Skill[] = [
     pos: { top: '40%', left: '85%' },
     level: 'familiar',
   },
-  {
-    name: '.NET Core',
-    icon: { icon: SiDotnet, iconClass: 'text-purple-600' },
-    pos: { top: '15%', left: '35%' },
-    level: 'strong',
-  },
+
   {
     name: 'AWS Basics',
     icon: { icon: FaAws, iconClass: 'text-orange-500' },
